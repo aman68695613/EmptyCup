@@ -48,7 +48,7 @@ header {
 }
 
 
-background: url(logo-small.png);
+/* background: url(logo-small.png); */
 
 
 .logo img {
@@ -60,6 +60,7 @@ background: url(logo-small.png);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 85px;
   padding: 0.5rem 1rem;
 
   border-bottom: 1px solid #eee;
@@ -67,7 +68,7 @@ background: url(logo-small.png);
 
 .alignment {
   display: flex;
-  gap: 1.25rem;
+  gap: 1.5rem;
   align-items: center;
 }
 
@@ -136,7 +137,9 @@ left: 16px;
 
 .card-left {
   width: 100%;
-  border-right: 1px solid #D0D0D0;
+  border-right: 1px solid rgba(208, 208, 208, 0.4);
+
+
   padding-right: 1.5rem;
 }
 
@@ -154,8 +157,8 @@ left: 16px;
 }
 
 .card-left p {
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 10px;
+  font-weight:550;
   color: #2E2E2E;
   margin-bottom: 1.25rem;
   max-width: 90%;
@@ -164,21 +167,22 @@ left: 16px;
 .stats {
   display: flex;
   justify-content: start;
-  gap: 2rem;
+  gap: 1rem;
   margin-bottom: 1rem;
 }
 
 .stats div {
   font-size: 14px;
+ 
   color: #000;
   text-align: center;
 }
 
 .stats div b {
   display: block;
-  font-size: 20px;
-  font-weight: 700;
-  margin-bottom: 0.25rem;
+  font-size: 25px;
+  font-weight: 1200;
+  margin-bottom: -0.25rem;
 }
 
 .card-left .phone {
@@ -213,7 +217,8 @@ left: 16px;
 }
 
 .action-button span {
-  font-size: 12px;
+  font-size: 8px;
+  margin-top: -5px;
   color: #B85B1B;
   font-weight: 500;
   text-align: center;
@@ -225,7 +230,7 @@ left: 16px;
 }
 
 .card-dark {
-  background-color: #EFE6D9; /* slightly darker beige */
+  background-color: #FFFCF2; /* slightly darker beige */
 }
 
 

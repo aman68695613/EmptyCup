@@ -3,7 +3,7 @@ let filterOn = false;
 let designers = [];
 
 async function loadDesigners() {
-    const res = await fetch('http://localhost:5000/api/designers');
+    const res = await fetch('https://emptycup-1-9y9p.onrender.com/api/designers');
     designers = await res.json();
     renderDesigners();
 }

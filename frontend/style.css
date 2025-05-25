@@ -1,0 +1,231 @@
+.logo-name {
+width: 124px;
+height: 35px;
+left: 118px;
+top: 24px;
+font-family: 'Chivo';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 29px;
+color: #716966;
+
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+    width: 27;
+height: 27;
+top: 24px;
+left: 307px;
+
+}
+
+body {
+    font-family: 'Chivo';
+    background-color: #FFFFFF;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+
+.logo {
+    width: 31px;
+    height: 31px;
+    left: 20px;
+    top: 21px;
+}
+
+
+background: url(logo-small.png);
+
+
+.logo img {
+    width: 32px;
+    height: 32px;
+}
+
+.nav-tabs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+
+  border-bottom: 1px solid #eee;
+}
+
+.alignment {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+}
+
+.tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  font-family: 'Chivo', sans-serif;
+}
+
+.tab img {
+ 
+width: 27px;
+height: 40.5px;
+left: 77px;
+top: 97px;
+
+
+}
+
+.tab-map img {
+width: 17px;
+height: 40.75px;
+left: 139px;
+top: 97px;
+
+
+}
+.tab-shortlisted img {
+width: 42px;
+height: 46px;
+left: 242px;
+top: 95px;
+
+
+}
+.tab-sort img {
+width: 31px;
+height: 44px;
+left: 305px;
+top: 98px;
+
+
+}
+
+.tab-active img {
+  width: 34;
+height: 42;
+top: 95px;
+left: 16px;
+
+}
+
+
+.designer-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  border-top: 1px solid #D7D7D7;
+  background-color: #FFFCF2;
+  font-family: 'Chivo', sans-serif;
+  line-height: 1.4;
+}
+
+.card-left {
+  width: 100%;
+  border-right: 1px solid #D0D0D0;
+  padding-right: 1.5rem;
+}
+
+.card-left h2 {
+  font-weight: 800;
+  font-size: 20px;
+  color: #000;
+  margin-bottom: 0.5rem;
+}
+
+.rating {
+  font-size: 20px;
+  color: #000;
+  margin-bottom: 0.75rem;
+}
+
+.card-left p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #2E2E2E;
+  margin-bottom: 1.25rem;
+  max-width: 90%;
+}
+
+.stats {
+  display: flex;
+  justify-content: start;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.stats div {
+  font-size: 14px;
+  color: #000;
+  text-align: center;
+}
+
+.stats div b {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.card-left .phone {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+  margin-top: 0.25rem;
+  line-height: 1.6;
+}
+
+.card-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+  width: 100px;
+}
+
+.action-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  font-family: 'Chivo', sans-serif;
+}
+
+.action-button img {
+  width: 20px;
+  height: 20px;
+}
+
+.action-button span {
+  font-size: 12px;
+  color: #B85B1B;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* Alternating background styles */
+.card-light {
+  background-color: #FFFFFF; /* light cream */
+}
+
+.card-dark {
+  background-color: #EFE6D9; /* slightly darker beige */
+}
+
+

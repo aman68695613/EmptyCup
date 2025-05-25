@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Epic Designs",
+    "rating": 3.5,
+    "description": "Passionate team of 4 designers working out of Bangalore with an experience of 4 years.",
+    "projects": 57,
+    "years": 8,
+    "price": "$$"
+  },
+  {
+    "id": 2,
+    "name": "Studio - D3",
+    "rating": 4.5,
+    "description": "Passionate team of 4 designers working out of Bangalore with an experience of 4 years.",
+    "projects": 43,
+    "years": 6,
+    "price": "$$$"
+  },
+  {
+    "id": 3,
+    "name": "House of Designs",
+    "rating": 4.0,
+    "description": "A creative hub of interior designers crafting modern, functional spaces with elegance.",
+    "projects": 39,
+    "years": 5,
+    "price": "$$"
+  },
+  {
+    "id": 4,
+    "name": "UrbanNest Interiors",
+    "rating": 4.7,
+    "description": "Award-winning team known for sustainable and chic interior transformations.",
+    "projects": 61,
+    "years": 9,
+    "price": "$$$"
+  }
+]

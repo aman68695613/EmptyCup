@@ -8,3 +8,6 @@
 
 ```bash
 docker-compose up --build
+```
+4. Now to access the page go to http://localhost:5000/
+5. Wait until the page loads it data from the hosted backend 
